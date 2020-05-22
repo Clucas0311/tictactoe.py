@@ -57,7 +57,7 @@ def is_winner(bo, le):
             (bo[7] == le and bo[4] == le and bo[1] == le) or  # Down the left side
             (bo[8] == le and bo[5] == le and bo[2] == le) or  # Down the middle
             # Down the right side
-            (bo[9] == le and bo[6] == le and bo[5] == le) or
+            (bo[9] == le and bo[6] == le and bo[3] == le) or
             (bo[1] == le and bo[5] == le and bo[9] == le) or  # left diagonally
             (bo[7] == le and bo[5] == le and bo[3] == le))   # right diagonally
 
